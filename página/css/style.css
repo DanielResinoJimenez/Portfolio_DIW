@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(17, 17, 17);
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    
+}
+
+.header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    width: 400px;
+    background-color: rgb(54, 54, 54);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav{
+    text-align: center;
+    color: rgb(221, 217, 217);
+    margin-top: 15  0px;
+    position: fixed;
+    width: 400px;
+}
+
+.img_container{
+    padding: 6px;
+    background-color: rgb(97, 243, 97);
+    border-radius: 100%;
+    width: 95px;
+    margin: 0 auto;
+    
+}
+
+.header_img{
+    border-radius: 100%;
+    width: 75px;
+    box-shadow: 1px 1px 5px 1px  rgb(0, 0, 0);
+    
+}
+
+.h2_nav{
+    font-size: 15px;
+    font-variant: small-caps;
+}
+
+.nav_list{
+    font-variant: small-caps;
+    font-size: 18px;
+    text-decoration: none;
+    list-style: none    ;
+}
+
+.nav_list_item{
+    border-radius: 8px;
+    background-color: rgb(77, 76, 76);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 20px;
+    margin-right: 40px;
+    text-align: center;
+    list-style: none;
+}
+
+.nav_list_link{
+    text-decoration: none;
+    color: rgb(221, 217, 217);
+}
+
+.main{
+
+}
