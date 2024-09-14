@@ -101,3 +101,36 @@ body{
     font-size: 40px;
     color: rgb(221, 217, 217);
 }
+
+.inicio_subtitle{
+    font-size: 40px;
+    color: rgb(221, 217, 217);
+    display: flex;
+    margin-top: -20px;
+}
+
+.subtitle_name{
+
+    margin-left: 10px;
+    color: rgb(97, 243, 97);
+
+}
+
+.inicio_text{
+    margin-top: -50px;
+    width: 500px;
+    text-align: justify;
+    color: rgb(221, 217, 217);
+}
+
+.inicio_link{
+    text-decoration: none;
+    color: rgb(221, 217, 217);
+    background-color: rgb(77, 76, 76);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 50px;
+}
+
